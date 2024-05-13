@@ -1,0 +1,5 @@
+perintah command line
+php artisan serve -> melakukan start aplikasi
+php artisan make:seed UserSeeder -> membuat class seeder
+melakukan konfigurasi database
+.env ->
