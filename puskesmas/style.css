@@ -1,0 +1,327 @@
+.bodylogin, #haltambah body{
+	font-family: sans-serif;
+	background: var(--warna3);
+}
+ 
+.h1login{
+	text-align: center;
+	font-weight: 300;
+	color: var(--warna4);
+}
+ 
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: var(--warna1);
+	margin: 80px auto;
+	padding: 30px 20px;
+	color: var(--warna4);
+	box-shadow: 5px 5px 8px var(--shadow);
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: var(--warna2);
+	color: var(--warna4);
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+ 
+.link button{
+	color: white;
+	text-decoration: none;
+	font-size: 10pt;
+	background-color: #D70040;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	width: 100%;
+	top: -10px;
+	position: relative;
+}
+ 
+#haltambah .kembali, #haledit .kembali{
+	color: white;
+	text-decoration: none;
+	font-size: 10pt;
+	background-color: #D70040;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	width: 100%;
+	top: -40px;
+	position: relative;
+}
+
+#icon {
+	float: right;
+	width: 50px; 
+	position: relative; 
+	top: -75px; 
+	cursor: pointer;
+}
+
+#haladmin .tambah_mapel, #haladmin .tambah {
+	border: none;
+	padding: 10px 11px;
+	position: relative;
+	top: 4px;
+	left: 82px;
+	float: left;
+	background-color: lightgreen;
+}
+
+#haladmin .edit {
+	border: none;
+	padding: auto;
+	float: left;
+	background-color: #007FFF;
+	border-radius: 5px;
+	color: white;
+}
+
+#haladmin .edit_bidang {
+	border: none;
+	padding: auto;
+	float: left;
+	background-color: #007FFF;
+	border-radius: 5px;
+	color: white;
+	position: relative;
+	left: 30px;
+}
+
+#haladmin .hapus {
+	border: none;
+	padding: auto;
+	float: right;
+	background-color: red;
+	border-radius: 5px;
+	color: white;
+}
+
+#haladmin .hapus_bidang {
+	border: none;
+	padding: auto;
+	float: right;
+	background-color: red;
+	border-radius: 5px;
+	color: white;
+	position: relative;
+	left: -15px;
+}
+
+#haladmin .logout, #haluser .logout{
+	border: none;
+	padding: 10px 11px;
+	position: relative;
+	top: -70px;
+	float: right;
+	background-color: #D22B2B;
+	color: white;
+}
+
+#haladmin #table2, #haladmin #table1 {
+	margin-left: 82px;
+}
+
+body, #haluser body, #haledit body{
+	background: var(--warna3);
+
+}
+
+#haladmin table , #haluser table {
+	background-color: white;
+	box-shadow: 5px 5px 8px var(--shadow);
+}
+
+#haladmin #serj{
+  background-image: url('img/search.png');
+  background-position: 7px 9px;
+  background-repeat: no-repeat;
+  background-size: 29px;
+  font-size: 16px;
+  padding: 9.93px 20px 10px 40px;
+  position: relative;
+  top: 3.8px;
+  border: none;
+  outline: none;
+  float: left;
+  margin-left: 81px;
+}
+ #haladmin #serj2{
+  background-image: url('img/search.png');
+  background-position: 7px 9px;
+  background-repeat: no-repeat;
+  background-size: 29px;
+  font-size: 16px;
+  padding: 9.93px 20px 10px 40px;
+  position: relative;
+  left: 82.5px;
+  top: 3.5px;
+  border: none;
+  outline: none;
+  float: left;
+}
+
+#haladmin #serj3  {
+  background-image: url('img/search.png');
+  background-position: 7px 9px;
+  background-repeat: no-repeat;
+  background-size: 29px;
+  font-size: 16px;
+  padding: 9.93px 20px 10px 40px;
+  position: relative;
+  left: 82.5px;
+  top: 4px;
+  border: none;
+  outline: none;
+  float: left;
+}
+
+#haluser #serj{
+  background-image: url('img/search.png');
+  background-position: 7px 9px;
+  background-repeat: no-repeat;
+  background-size: 29px;
+  font-size: 16px;
+  padding: 9.93px 20px 10px 40px;
+  position: relative;
+  top: 0.1px;
+  border: none;
+  outline: none;
+  float: left;
+}
+
+
+#haladmin #icon, #haluser #icon{
+	float: left;
+	width: 50px; 
+	position: relative; 
+	top: 4px; 
+	cursor: pointer;
+}
+
+#haltambah #icon, #haledit #icon  {
+	float: right;
+	width: 50px; 
+	position: relative; 
+	top: -50px; 
+	cursor: pointer;
+}
+
+#haladmin h2, #haluser h2 {
+	color: var(--warna4);
+}
+
+
+.kotak_tambah, .kotak_edit{
+	width: 350px;
+	background: var(--warna1);
+	margin: 50px auto;
+	padding: 30px 20px;
+	color: var(--warna4);
+	box-shadow: 5px 5px 8px var(--shadow);
+}
+
+#haltambah .kotak_tambah h2 {
+	color: var(--warna4);
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+	top: -32px;
+}
+
+.kotak_edit h2 {
+	color: var(--warna4);
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+	top: -22px;
+}
+
+#haltambah .kotak_tambah form, #haledit .kotak_edit  {
+	position: relative;
+	top: -32px;
+}
+
+#haltambah input, #haledit input{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 5px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+#haltambah .tambah {
+	background-color:  lightgreen;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+
+}
+
+
+#haledit .simpan {
+	background-color:  lightskyblue;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+#haladmin #table3 {
+	margin-top: 55px;
+	margin-left: 82px;
+}
+
+
+
+:root {
+	--warna1: #fff;
+	--warna2: #2aa7e2;
+	--warna3: #ebf9fb;
+	--warna4: #000;
+	--shadow: darkgray;
+}
+
+
+.dark-mode {
+	--warna1: #43464B;
+	--warna2: #A9A9A9;
+	--warna3: #393D47;
+	--warna4: #fff;
+	--shadow: #1F2022;
+}
+
+
+table.fixed { 
+	table-layout:fixed; 
+}
+table.fixed td { 
+	overflow: hidden; 
+}
