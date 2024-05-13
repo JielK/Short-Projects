@@ -1,0 +1,1 @@
+<a href="<?php echo 'chapter.php?chapter_id=' . $next . '&user_id=' . $user; ?>"><button class="prevnext text">Next</button></a>

@@ -1,0 +1,1 @@
+<a href="<?php $prev = $row['chapter_id'] - 1; $next = $row['chapter_id'] + 1; echo 'chapter.php?chapter_id=' . $prev; ?>"><button class="prevnext prev text">Prev</button></a>

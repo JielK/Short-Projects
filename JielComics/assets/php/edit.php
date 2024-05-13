@@ -1,0 +1,1 @@
+<a href="edit_comic.php?comic_id=<?php echo $rowcomics['comic_id']; ?>" ><button class="edit_comic float-start"><i class="fa-solid fa-pen-to-square"></i>&nbspEDIT</button></a>
